@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+
+
+}
+
+h1{
+    color:#403d3d;
+    
+}
+h2{
+    color: #848484;
+    font-weight: lighter;
+   
+}
+
+.logo-ifood{
+    padding-top: 15px;
+    padding-left: 50px;
+    position: absolute;
+
+ }
+
+.logo-ifood img{
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+
+  
+}
+
+.fundo img{
+    width: 890px;
+    height: 650px;
+    position: fixed;
+ }
+
+
+main{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    width: 450px;
+    height: 460px;
+    margin-top: 45px;
+    padding: 25px 25px 25px 25px;
+    align-items: center;
+    float: right;
+    margin-right: 70px;
+    position: fixed;
+    right: 35px;
+ 
+}
+
+
+.celular,
+.email{
+    margin-top: 45px;
+    background-color: #fff;
+    border: 1px solid #c7c4c4;
+    border-radius: 3px;
+    color: #c7c4c4;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+   
+ 
+}
+
+#main-container{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.container-letras{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+ 
+
+}
+
+.btn-face button{
+    background-color: #4065b4;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: #4065b4;
+    height: 45px;
+    width: 360px;
+    font-size: 14px;
+    font-weight: bold;
+  
+}
+
+.btn-google button{
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: #eee;
+    height: 45px;
+    width: 360px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+    padding-left: 10px;
+}
